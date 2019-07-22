@@ -1,5 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-html, body { height: 100%; }
+/* You can add global styles to this file, and also import other style files */
+
+// changes the default icon color
+$icon-color: #0077f9;
+
+// changes the selected checkbox check mark color
+$accent-color: #0077f9;
+
+$header-height: 50px;
+$row-height: 40px;
+$row-border-width: 1px;
+$hover-color: cornsilk;
+
+@import "~ag-grid-community/src/styles/ag-grid.scss";
+@import "~ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham.scss";
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
