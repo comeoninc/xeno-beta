@@ -41,7 +41,7 @@
     "nativescript-angular": "^8.0.2",
     "nativescript-dev-typescript": "^0.10.0",
     "nativescript-typedoc-theme": "0.0.7",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.4.0",
     "sass-loader": "^7.1.0",
